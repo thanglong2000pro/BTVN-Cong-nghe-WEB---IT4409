@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.container{
+  width: 1280px;
+  margin: 50px auto;
+  min-height: 200px;
+  position: relative;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 85%;
+    }
+}
+.inner{
+  overflow: hidden;
+}
+.track{
+  display: inline-flex;
+  transition: transform 1.5s;
+}
+.card-container{
+  width: 256px;
+  flex-shrink: 0;
+  height: 250px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.card{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card > * {
+  flex: 1;
+}
+.card img{
+  width:100%;
+  height:80%;
+  object-fit: cover;
+  object-position: top;
+}
+.card .info{
+  flex-basis: 40px;
+  background: #333;
+  color: #fff;
+  flex-grow: 0;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.navi button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.navi .prev{
+  left: -30px;
+  display: none;
+}
+.navi .prev.show{
+  display: block;
+}
+.navi .next{
+  right: -30px;
+}
+.navi .next.hide{
+  display: none;
+}
+.ra{
+    transition: 1.5s;
+    opacity: 1;
+}
