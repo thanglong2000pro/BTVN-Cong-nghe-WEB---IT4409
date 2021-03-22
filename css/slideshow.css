@@ -30,6 +30,10 @@
   padding-right: 15px;
   box-sizing: border-box;
 }
+.card img:hover{
+  display: block;
+  -webkit-filter: brightness(70%);
+}
 .card{
   width: 100%;
   height: 100%;
@@ -39,6 +43,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 .card > * {
   flex: 1;
@@ -49,6 +54,28 @@
   object-fit: cover;
   object-position: top;
 }
+.card .play{
+  opacity: 1;
+  display:none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5  0%;
+}
+.card:hover .play{
+  display:block;
+}
+.card .play .playbutton{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
 .card .info{
   flex-basis: 40px;
   background: #333;
@@ -56,7 +83,9 @@
   flex-grow: 0;
   padding: 10px;
   box-sizing: border-box;
-
+}
+.material-icons{
+  font-size: 60px;
 }
 .navi button{
   width: 60px;
@@ -71,17 +100,15 @@
 .navi .prev{
   left: -30px;
   display: none;
+  color: white;
 }
 .navi .prev.show{
   display: block;
 }
 .navi .next{
   right: -30px;
+  color: white;
 }
 .navi .next.hide{
   display: none;
-}
-.ra{
-    transition: 1.5s;
-    opacity: 1;
 }

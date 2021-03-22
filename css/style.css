@@ -29,7 +29,9 @@ nav{
     height: 35px;
 }
 nav .menu{
+    background: rgb(255,255,255);
     display: flex;
+    text-align: center;
 }
 nav .menu li a{
     height: 40px;
@@ -68,6 +70,35 @@ nav .menu li a:hover{
     color:#ffffff;
     box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
     transition: all ease 0.2s;
+}
+.SubMenu{
+  display: none;
+
+  width: 200px;
+}
+nav .menu li:hover .SubMenu{
+  display: block;
+  position: absolute;
+    background: rgb(255,255,255);
+  margin-left: 15px;
+}
+nav .menu li:hover .SubMenu ul{
+  display: block;
+
+}
+nav .menu li:hover .SubMenu ul li{
+  width: 200px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+nav .menu li:hover .SubMenu ul li:last-child{
+  border-bottom: none;
+}
+nav .menu li:hover .SubMenu ul li a:hover{
+  color: #aabb00;
 }
 #main{
     padding-top:80px;
