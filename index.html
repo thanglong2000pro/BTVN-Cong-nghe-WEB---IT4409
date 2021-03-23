@@ -7,22 +7,64 @@
         <link rel="stylesheet" href = "css/style.css"/>
         <link rel="stylesheet" href = "css/slideshow.css"/>
         <!<!-- fav-icon-------------->
+        <!-- logo hiển thị trên khung tab -->
         <link rel="shortcut icon" href="images/duc.jpg"/>
     </head>
     <body>
         <!--navigation------------>
         <nav>
-            <!--logo    -->
+            <!--logo của web (hiện ở đầu trang)   -->
             <a href="#" class="logo">
                 <img src="images/logo.jpg" alt="alt"/>
             </a>
             <!--menu--->
             <ul class="menu">
-                <li><a href="#">Xếp Hạng</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">Việt Nam</a></li>
-                <li><a href="#">US-UK</a></li>
-                <li><a href="#">Khác</a></li>
+                <li><a href="#">Xếp Hạng</a>
+                  <div class="SubMenu">
+                    <ul>
+                      <li><a href="#">Hôm nay</a></li>
+                      <li><a href="#">Tuần này</a></li>
+                      <li><a href="#">Tháng qua</a></li>
+                      <li><a href="#">BXH 2020</a></li>
+                  </div>
+                </li>
+                <li><a href="#">Video</a>
+                  <div class="SubMenu">
+                    <ul>
+                      <li><a href="#">Video Việt Nam</a></li>
+                      <li><a href="#">Video US-UK </a></li>
+                      <li><a href="#">Video Hàn Quốc</a></li>
+                      <li><a href="#">Video Hài</a></li>
+                      <li><a href="#">Video Nhật Bản</a></li>
+                      <li><a href="#">Video Live</a></li>
+                      <li><a href="#">Video Khác</a></li>
+                  </div>
+                </li>
+                <li><a href="#">Việt Nam</a>
+                  <div class="SubMenu">
+                    <ul>
+                      <li><a href="#">Pop</a></li>
+                      <li><a href="#">Rap</a></li>
+                      <li><a href="#">RnB</a></li>
+                      <li><a href="#">Underground</a></li>
+                  </div>
+                </li>
+                <li><a href="#">US-UK</a>
+                  <div class="SubMenu">
+                    <ul>
+                      <li><a href="#">Rap</a></li>
+                      <li><a href="#">Nhạc Đồng Quê</a></li>
+                      <li><a href="#">Pop</a></li>
+                  </div>
+                </li>
+                <li><a href="#">Khác</a>
+                  <div class="SubMenu">
+                    <ul>
+                      <li><a href="#">Rap</a></li>
+                      <li><a href="#">Nhạc Đồng Quê</a></li>
+                      <li><a href="#">Pop</a></li>
+                  </div>
+                </li>
             </ul>
             <!--search------->
             <div class="search">
@@ -38,12 +80,33 @@
             <div class ="showcase">
                 <div class="showcase-box">
                     <img src="images/BigCityBoy.jpg"/>
+                    <!-- button play -->
+                    <div class="play">
+                      <span class="material-icons">
+                        play_circle_outline
+                        <button id="playbutton" class= "playbutton"></button>
+                      </span>
+                    </div>
                 </div>
                 <div class="showcase-box">
                     <img src="images/ctcht.jpg"/>
+                    <!-- button play -->
+                    <div class="play">
+                      <span class="material-icons">
+                        play_circle_outline
+                        <button id="playbutton" class= "playbutton"></button>
+                      </span>
+                    </div>
                 </div>
                 <div class="showcase-box">
                     <img src="images/ontheground.jpg"/>
+                    <!-- button play -->
+                    <div class="play">
+                      <span class="material-icons">
+                        play_circle_outline
+                        <button id="playbutton" class= "playbutton"></button>
+                      </span>
+                    </div>
                 </div>
             </div>
             <!--test slideshow-->
@@ -53,14 +116,28 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/bigcityboysquare.jpg" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         BigCityBoy - BinZ
-               </div>
+                      </div>
                     </div>
                   </div>
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/ctcht.jpg" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         Chúng ta của hiện tại - Sơn Tùng MTP
                       </div>
@@ -69,6 +146,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/ontheground.png" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         On The Ground - Rosé
                       </div>
@@ -77,6 +161,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/tbdk.png" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         Tình bạn diệu kỳ - Amee ft. Ricky Star,Lăng LD
                       </div>
@@ -85,6 +176,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/ganhti.jpg" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         Ganh Tị - Tage
                       </div>
@@ -93,6 +191,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/bigcityboysquare.jpg" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         BigCityBoy - BinZ
                       </div>
@@ -101,6 +206,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/ctcht.jpg" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         Chúng ta của hiện tại - Sơn Tùng MTP
                       </div>
@@ -109,6 +221,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/ontheground.png" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         On The Ground - Rosé
                       </div>
@@ -117,6 +236,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/tbdk.png" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         Tình bạn diệu kỳ - Amee ft. Ricky Star,Lăng LD
                       </div>
@@ -125,6 +251,13 @@
                   <div class = "card-container">
                     <div class= "card">
                       <img src="images/ganhti.jpg" alt=""></img>
+                      <!-- button play -->
+                      <div class="play">
+                        <span class="material-icons">
+                          play_circle_outline
+                          <button id="playbutton" class= "playbutton"></button>
+                        </span>
+                      </div>
                       <div class="info">
                         Ganh Tị - Tage
                       </div>
