@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lab 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <div class='change-color' id='body'>
+        <label class='red' id='red' onmouseover="onMouseover_red()" onmouseout="onMouseout_red()"> Red</label>
+        <label class='green' id='green' onmouseover="onMouseover_green()" onmouseout="onMouseout_green()"> Green</label>
+        <label class='blue' id='blue' onmouseover="onMouseover_blue()" onmouseout="onMouseout_blue()"> Blue</label>
+
+        <div class='paragraph'>
+            <p id="paragraph">Nhân kỷ niệm 75 năm ngày Thể thao Việt Nam (27/3/1946 - 27/3/2021) và hưởng ứng phong
+                trào toàn dân tập thể dục, Trường Đại học Bách khoa Hà Nội tổ chức chạy hưởng ứng phong trào rèn luyện
+                thể dục thể thao nhằm nâng cao sức khoẻ phục vụ cho công tác giảng dạy và học tập của cán bộ và sinh viên.</p>
+        </div>
+    </div>
+    <script>
+        function onMouseover_red() {
+            document.getElementById('paragraph').style.color = 'red'
+        }
+        function onMouseout_red() {
+            document.getElementById('paragraph').style.color = 'black'
+        }
+        function onMouseover_green() {
+            document.getElementById('paragraph').style.color = 'green'
+        }
+        function onMouseout_green() {
+            document.getElementById('paragraph').style.color = 'black'
+        }
+        function onMouseover_blue() {
+            document.getElementById('paragraph').style.color = 'blue'
+        }
+        function onMouseout_blue() {
+            document.getElementById('paragraph').style.color = 'black'
+        }
+    </script>
+</body>
+
+</html>>

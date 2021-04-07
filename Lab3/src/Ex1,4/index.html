@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title Page-->
+    <title>Register Forms</title>
+
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Link Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Main CSS-->
+    <link href="style.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-01 p-t-60 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w780">
+            <div class="card card-3">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Registration Info</h2>
+                    <form >
+                        <div class="input-group">
+                            <input id="name-id"class="input--style-3" type="text" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-3" type="date" placeholder="Birthdate" name="birthday" required >
+                        </div>
+                        <div class="input-group">
+                            <div>
+                                <select name="gender" class="input--style-3">
+                                    <option selected="selected">Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input  class="input--style-3" type="email" placeholder="Email" name="email" required>
+                        </div>
+                         <div class="input-group">
+                            <input id="password" class="input--style-3" type="password" placeholder="Password" name="password" required>
+                        </div>
+                         <div class="input-group">
+                            <input id="confirm_password" class="input--style-3" type="password" placeholder="Confirm password" name="confirm_password" required>
+                        </div>
+                        <div class="input-group">
+                            <input id="phone-id"class="input--style-3" type="text" placeholder="Phone" name="phone" required>
+                        </div>
+                        <div class="p-t-10">
+                            <button id="register" class="btn btn--pill btn--green" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS-->
+    <script src="global.js"></script>
+
+
+</body>
+
+</html>
+<!-- end document-->
