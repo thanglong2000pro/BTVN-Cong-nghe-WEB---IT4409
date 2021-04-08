@@ -1,0 +1,92 @@
+.newestalbum .albummoi{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+}
+.newestalbum .xemtatca{
+    position: relative;
+    left: 690px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.album-container{
+  width: 780px;
+  margin: 0px 100px;
+  min-height: 200px;
+  position: relative;
+}
+.album-track{
+  display: inline-flex;
+  transition: transform 1.5s;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  position: relative;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.album-card-container{
+  width: 175px;
+  flex-shrink: 0;
+  height: 175px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.album-card img:hover{
+  display: block;
+  -webkit-filter: brightness(70%);
+}
+.album-card{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.album-card > * {
+  flex: 1;
+}
+.album-card img{
+  width:100%;
+  height:80%;
+  object-fit: cover;
+  object-position: top;
+}
+.album-card .album-play{
+  opacity: 1;
+  display:none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5  0%;
+}
+.album-card:hover .album-play{
+  display:block;
+}
+.album-card .album-play .album-playbutton{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.album-card .album-info{
+  flex-basis: 40px;
+  background: #333;
+  color: #fff;
+  flex-grow: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}

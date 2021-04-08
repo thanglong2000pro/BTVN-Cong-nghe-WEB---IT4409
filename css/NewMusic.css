@@ -1,0 +1,88 @@
+.NewMusic{
+    margin-left: 100px;
+    width:45%;
+}
+.NewMusic .new{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.NewMusic .xemtatca{
+    position: relative;
+    left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.NewMusic .newMusic .newmusic-container{
+    width: 100px;
+    flex-shrink: 0;
+    height: 100px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 25px;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card{
+    display: flex;
+    position: relative;
+    width: 360px;
+    height: 80px;
+    border-top: 1px solid grey;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card a img{
+    display: flex;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top:15%;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .newmusic-info{
+    margin: 0px 10px 5px 10px;
+    margin-top:3%;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .newmusic-info .name{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .newmusic-info .artist{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .quality{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position:relative;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .right-corner{
+    margin-top:3%;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .right-corner .time{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    position:relative;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.NewMusic .newMusic .newmusic-container .newmusic-card .right-corner .views{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position:relative;
+    margin-left: 100px;
+    margin-top: 5px;
+}

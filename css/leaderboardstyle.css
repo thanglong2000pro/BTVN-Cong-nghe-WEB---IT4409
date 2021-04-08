@@ -1,0 +1,143 @@
+.leaderboard{
+}
+.leaderboard .bangxephang{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.leaderboard .nghetatca{
+    position: relative;
+    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.leaderboard .menu{
+    margin-top: 10px;
+}
+.leaderboard .menu a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 33px 0px 0px;
+}
+.leaderboard .menu a:hover{
+    color:red;
+}
+.leaderboard .top .top1-container{
+    width: 100px;
+    flex-shrink: 0;
+    height: 100px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+}
+.leaderboard .top .top1-container .top1-card {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.leaderboard .top .top1-container .top1-card a img{
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.leaderboard .top .top1-container .top1-card .top1-info{
+    position:relative;
+    margin-left: 20px;
+}
+.leaderboard .top .top1-container .top1-card .top1-info .name{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.leaderboard .top .top1-container .top1-card .top1-info .artist{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.leaderboard .top .top1-container .top1-card .views{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position:relative;
+    margin-left: 115px;
+    margin-top: 40px;
+}
+.leaderboard .top .anothertop-container{
+    width: 100px;
+    flex-shrink: 0;
+    height: 100px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 25px;
+}
+.leaderboard .top .anothertop-container .top-card{
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 60%;
+}
+.leaderboard .top .anothertop-container .top-card .place{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px 0px 0px;
+}
+.leaderboard .top .anothertop-container .top-card .place .number{
+    width: 10px;
+    height: 10px;
+    margin: 5px 5px 5px 5px;
+    text-align: left;
+}
+.leaderboard .top .anothertop-container .top-card .place .upordown .material-icons{
+    width: 5px;
+    height: 5px;
+    transform: scale(0.35);
+}
+.leaderboard .top .anothertop-container .top-card a img{
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.leaderboard .top .anothertop-container .top-card .top-info{
+    margin: 0px 10px 5px 10px;
+}
+.leaderboard .top .anothertop-container .top-card .top-info .name{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.leaderboard .top .anothertop-container .top-card .top-info .artist{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.leaderboard .top .anothertop-container .top-card .views{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position:relative;
+    margin-left: 140px;
+    margin-top: 15px;
+}
