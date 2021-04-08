@@ -1,0 +1,57 @@
+.FavouriteArtist{
+    margin-top: 750px;
+    width: 400px;
+    height:500px;
+    overflow: hidden;
+}
+.FavouriteArtist .favourite{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.FavouriteArtist .favourite-image{
+    display: flex;
+    flex-direction: column;
+}
+.FavouriteArtist .favourite-image .favourite-image1{
+    margin-top: 20px;
+    display: flex;
+    width: 400px;
+    height: 300px;
+}
+.FavouriteArtist .favourite-image .favourite-image1 .bigImage img{
+    border: 2px solid grey;
+    border-radius: 0px;
+    width: 250px;
+    height: 300px;
+}
+.FavouriteArtist .favourite-image .favourite-image1 .smallImage{
+    display: flex;
+    flex-direction: column;
+}
+.FavouriteArtist .favourite-image .favourite-image1 .smallImage1{
+    width: 150px;
+    height: 150px;
+}
+.FavouriteArtist .favourite-image .favourite-image1 .smallImage1 img{
+    border: 2px solid grey;
+    border-radius: 0px;
+    width: 150px;
+    height: 150px;
+}
+.FavouriteArtist .favourite-image .favourite-image2{
+    display: flex;
+    flex-direction: row;
+}
+.FavouriteArtist .favourite-image .favourite-image2 .smallImage2{
+    width: 200px;
+    height: 200px;
+}
+.FavouriteArtist .favourite-image .favourite-image2 .smallImage2 img{
+    border: 2px solid grey;
+    border-radius: 0px;
+    width: 200px;
+    height: 200px;
+}

@@ -2,7 +2,6 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
-    background-color: rgba(151,151,151,0.03);
 }
 *{
     box-sizing: border-box;
@@ -13,124 +12,22 @@ ul{
 a{
     text-decoration: none;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    border: 1px solid rgba(0,0,0,0.04);
-    background-color: #ffffff;
-    position: fixed;
-    left:0;
-    top:0;
-    z-index:100;
-}
-.logo img{
-    height: 35px;
-}
-nav .menu{
-    background: rgb(255,255,255);
-    display: flex;
-    text-align: center;
-}
-nav .menu li a{
-    height: 40px;
-    line-height: 43px;
-    margin: 0px;
-    padding: 0px 22px;
-    display: flex;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #585858;
-    letter-spacing: 1px;
-}
-.search{
-    width:250px;
-    height:40px;
-    background-color: rgba(245,245,245,0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    padding:0px 20px;
-}
-.search input{
-    width:100%;
-    height:30px;
-    border:none;
-    outline: none;
-    background-color: transparent;
-}
-.search i{
-    color: #3a3a3a;
-}
-nav .menu li a:hover{
-    background-color: #242424;
-    color:#ffffff;
-    box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
-    transition: all ease 0.2s;
-}
-.SubMenu{
-  display: none;
-
-  width: 200px;
-}
-nav .menu li:hover .SubMenu{
-  display: block;
-  position: absolute;
-    background: rgb(255,255,255);
-  margin-left: 15px;
-}
-nav .menu li:hover .SubMenu ul{
-  display: block;
-
-}
-nav .menu li:hover .SubMenu ul li{
-  width: 200px;
-  padding: 10px;
-  border-bottom: 1px dotted #fff;
-  background: transparent;
-  border-radius: 0;
-  text-align: left;
-}
-nav .menu li:hover .SubMenu ul li:last-child{
-  border-bottom: none;
-}
-nav .menu li:hover .SubMenu ul li a:hover{
-  color: #aabb00;
-}
 #main{
     padding-top:80px;
     background-color: #ffffff;
 }
-.showcase{
-    width: 1480px;
-    height: 300px;
-    background: #ffffff;
-    overflow: hidden;
-    display: flex;
-    box-sizing: border-box;
+.horizontaldisplay{
+    display:flex;
 }
-.showcase-box{
-    width: 430px;
-    height: 250px;
-    box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    margin: 0px 20px 10px 20px;
-    overflow: hidden;
+.horizontaldisplay .verticaldisplay1 .subverticaldisplay{
+    display:flex;
 }
-.showcase-box img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    object-position: top;
+.horizontaldisplay .verticaldisplay1 .newestalbum{
+    position: relative;
 }
-.showcase-heading{
-    padding-left:30px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform:uppercase;
-    font-size:1.2rem;
-    color:#1a1a1a;
+.horizontaldisplay .verticaldisplay2{
+    display:flex;
+}
+.horizontaldisplay .verticaldisplay2 .leaderboard{
+    position: absolute;
 }

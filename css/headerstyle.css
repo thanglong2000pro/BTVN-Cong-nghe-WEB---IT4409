@@ -1,0 +1,131 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.04);
+    background-color: pink;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:100;
+    
+}
+.logo img{
+    height: 35px;
+}
+nav .menu{
+    background: pink;
+    display: flex;
+    text-align: center;
+}
+nav .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+}
+.search{
+    width:250px;
+    height:40px;
+    background-color: rgba(245,245,245,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding:0px 20px;
+}
+.search input{
+    width:100%;
+    height:40px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+.search i{
+    color: #3a3a3a;
+}
+.search .searchicon{
+    transform: scale(0.75);
+    color: grey;
+    position: relative;
+    padding-left:10px;
+}
+.Register a{
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px 2px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+}
+nav .menu li a:hover{
+    color:red;
+    box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+    transition: all ease 0.2s;
+}
+.SubMenu{
+    display: none;
+    width: 250px;
+}
+nav .menu li:hover .SubMenu{
+  display: block;
+  position: absolute;
+  background: pink;
+}
+nav .menu li .SubMenu ul{
+    
+}
+nav .menu li:hover .SubMenu ul{
+  display: block;
+}
+nav .menu li:hover .SubMenu ul li{
+  width: 200px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+nav .menu li:hover .SubMenu ul li:last-child{
+  border-bottom: none;
+}
+nav .menu li:hover .SubMenu ul li a:hover{
+  color: red;
+}
+@media only screen and (max-width: 1000px){
+    nav .menu li a{
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+}
+}
+@media only screen and (max-width: 640px) {
+    nav .menu {
+        display: none;
+    }
+    .search{
+    width:300px;
+    height:30px;
+    }
+    .Register{
+        display: none;
+    }
+}
