@@ -17,6 +17,8 @@
     }
 }
 .inner{
+  display: flex;
+  width: 1280px;
   overflow: hidden;
 }
 .track{
@@ -66,10 +68,14 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 5  0%;
+  border-radius: 50%;
 }
 .card:hover .play{
   display:block;
+}
+.play:hover ~ .card img{
+    display: block;
+    -webkit-filter: brightness(70%);
 }
 .card .play .playbutton{
   display: none;
