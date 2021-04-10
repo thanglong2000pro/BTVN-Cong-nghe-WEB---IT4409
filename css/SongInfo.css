@@ -1,0 +1,65 @@
+.songInfo{
+    display: flex; 
+    margin-top: 50px;
+    margin-left: 12%;
+}
+.songInfo .leftSide{
+    width : 360px;
+    display: flex;
+    flex-direction: column;
+}
+.songInfo .leftSide img{
+    width: 240px;
+    height: 240px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.songInfo .leftSide .songName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.songInfo .leftSide .info{
+  
+}
+.songInfo .leftSide .info .row{
+    
+}
+.songInfo .leftSide .info .row .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:grey;
+}
+.songInfo .leftSide .info .row a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+}
+.songInfo .rightSide ul{
+    display: flex;
+}
+.songInfo .rightSide ul li{
+    padding-left:5px;
+}
+.songInfo .rightSide ul li button{
+    width : 120px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:linen;
+    color:grey;
+    display: flex;
+}
+.songInfo .rightSide ul li button span{
+    padding-top:5px;
+    padding-left:15px;
+}
+.songInfo .rightSide ul li button .buttonname{
+    padding-left:2px;
+    padding-top:10px;
+}
+.songInfo .rightSide ul li .Extends{
+    display: none;
+}

@@ -24,11 +24,11 @@
     </a>
    </div>
    <div class="main-play-bar">
-    <span id="main-time">0:00</span>
+    <span id="main-time">00:00</span>
     <div class="main-bar-bg">
      <div class="main-progress"></div>
     </div>
-    <span id="main-total-time">0:00</span>
+    <span id="main-total-time">00:00</span>
    </div>
    <div class="main-song-content">
     <div class="main-user-info">
@@ -51,6 +51,7 @@
     </div>
    </div>
   </div>
+    <audio src="<?php echo $_srclink;?>" preload="none" controls></audio>
 </div>
 <div id="main-scroll" style="overflow:scroll;">
     <div class ="Container">
