@@ -8,6 +8,7 @@ img{
 }
 #music-player {
  background-color: pink;
+ border: 1px dotted white;
  width: 100%;
  padding: 10px 0;
  position: fixed;
@@ -42,7 +43,9 @@ img{
  display: flex;
  justify-content: flex-start;
 }
-
+.controls{
+    display :flex;
+}
 .controls  img {
   vertical-align: middle;
  }

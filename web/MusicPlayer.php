@@ -28,11 +28,11 @@
    
    <!-- The play bar -->
    <div class="play-bar">
-    <span id="time">0:00</span>
+    <span id="time">00:00</span>
     <div class="bar-bg">
      <div class="progress"></div>
     </div>
-    <span id="total-time">0:00</span>
+    <span id="total-time">00:00</span>
    </div>
    <div class="song-content"> <!-- The songs meta -->
     <div class="user-info">

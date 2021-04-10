@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 #main-music-player {
  margin-left: 12%;
+ margin-top: 20px;
  background-color: black;
  width: 820px;
- padding: 10px 0;
+ padding: 10px 0px;
  z-index: 999;
 }
 #main-music-player .main-inner {
@@ -30,6 +31,7 @@
 }
 .main-controls{
     padding-top: 50px;
+    display :flex;
 }
 .main-controls  img {
   vertical-align: middle;
