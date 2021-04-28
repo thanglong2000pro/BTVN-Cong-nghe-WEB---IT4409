@@ -1,0 +1,14 @@
+.main {
+            display: flex;
+        }
+        .list_cat {
+            margin: 10px 20px 10px 30px;
+        }
+        .business_list {
+            margin-top: 50px;
+        }
+
+        .submit {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
