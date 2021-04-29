@@ -26,7 +26,6 @@
                 $query = "SELECT * FROM $table_name";
                 if ($result = $mysqli->query($query)) {
 
-                    /* fetch associative array */
                     while ($row = $result->fetch_assoc()) {
                         $cnt++;
                     }
@@ -34,7 +33,6 @@
                 }
                 if ($result = $mysqli->query($query)) {
 
-                    /* fetch associative array */
                     while ($row = $result->fetch_assoc()) {
                         $catname = $row["Title"];
                         $catid = $row["CategoryID"];
@@ -65,19 +63,15 @@
                 $business_tab = 'businesses';
                 $table_name = 'categories';
                 $business_cat = 'biz-categories';
-                // $t = 0;
 
-                //lấy url
+
                 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-                //cắt url
                 $parts = parse_url($actual_link);
-                // get dữ liệu url theo query
                 if($parts['query'] != '') {
                     parse_str($parts['query'], $query);
-                    // get id category trong url tạo bên trên (sau click)
+
                     if($query['id'] != '') {
                         $cat_selected = $query['id'];
-                        // echo $cat_selected. '<br>';
 
                         if($cat_selected == '') {
 
@@ -91,7 +85,6 @@
                             WHERE $business_cat.CategoryID LIKE '$cat_selected'";
                             if ($result = $mysqli->query($query2)) {
 
-                                /* fetch associative array */
                                 while ($row = $result->fetch_assoc()) {
                                     // $t++;
                                     $cnt = $row["BusinessID"];
