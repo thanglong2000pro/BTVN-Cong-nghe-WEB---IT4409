@@ -1,0 +1,76 @@
+<html>
+
+<head>
+  <title>THREE-COLUMN LIQUID LAYOUT WITH FLOATING BOXES</title>
+  <style type="text/css">
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #header {
+      background: #0f0;
+      width: 100%;
+    }
+
+    #leftcol {
+      background: #f00;
+      float: left;
+      width: 20%;
+      height: 500px;
+    }
+
+    #rightcol {
+      background: #f00;
+      float: right;
+      width: 20%;
+      height: 500px;
+    }
+
+    #content {
+      background: #fff;
+      float: left;
+      width: 59%;
+      height: 500px;
+    }
+
+    #footer {
+      background: #0f0;
+      clear: both;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">Header Section</div>
+  <div id="leftcol">Left Section</div>
+  <div id="rightcol">Right Section</div>
+  <div id="content">Content Section</div>
+  <div id="footer">Footer Section</div>
+
+  
+  <script>
+    var leftcol = document.getElementById("leftcol");
+    var rightcol = document.getElementById("rightcol");
+    var content = document.getElementById("content");
+
+    function changeHeight() {
+      leftcol.style.height = 'auto';
+      rightcol.style.height = 'auto';
+      content.style.height = 'auto';
+
+      var maxHeight = Math.max(500, leftcol.clientHeight, rightcol.clientHeight, content.clientHeight);
+
+      leftcol.style.height = maxHeight;
+      rightcol.style.height = maxHeight;
+      content.style.height = maxHeight;
+    }
+
+    window.addEventListener('load', changeHeight);
+    window.addEventListener('resize', changeHeight);
+    
+  </script>
+</body>
+
+</html>
