@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<name>
+			<firstname>Thang</firstname>
+			<lastname>Long</lastname>
+		</name>
+		<birth>
+			<day>19</day>
+			<month>10</month>
+			<year>2000</year>
+		</birth>
+		<class>IT1-01</class>
+		<address>
+			<city>Hanoi</city>
+		</address>
+		<contact>
+			<phone>0123 456 789</phone>
+		</contact>
+	</student>
+	<student>
+		<name>
+			<firstname>Ba</firstname>
+			<lastname>Duc</lastname>
+		</name>
+		<birth>
+			<day>2</day>
+			<month>5</month>
+			<year>2000</year>
+		</birth>
+		<class>IT1-01</class>
+		<address>
+			<city>Hanoi</city>
+		</address>
+		<contact>
+			<phone>0987 654 321</phone>
+		</contact>
+	</student>
+</students>
